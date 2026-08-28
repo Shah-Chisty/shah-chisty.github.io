@@ -1,0 +1,16 @@
+# Not part of the published site — the assets directory is the repo root.
+.git
+.github
+.wrangler
+node_modules
+src
+dist
+portfolio
+.assetsignore
+wrangler.jsonc
+package.json
+package-lock.json
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml

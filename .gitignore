@@ -31,3 +31,6 @@ Desktop.ini
 .idea/
 *.swp
 *~
+
+# Wrangler
+.wrangler/
