@@ -1,6 +1,4 @@
-/* ----------------------- Mixins ----------------------- */
-/* ----------------------- Variables ----------------------- */
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* ----------------------- Mixins ----------------------- */ /* ----------------------- Variables ----------------------- */ /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -1399,25 +1397,29 @@ a.social:hover {
   margin-bottom: 50px;
 }
 
-#websites {
+#websites,
+#client-work {
   max-width: 100%;
   margin: 0;
   font-size: 2em;
   text-align: center;
 }
-#websites h4 {
+#websites h4,
+#client-work h4 {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 400;
   font-size: 0.7em;
 }
 @media (min-width: 768px) {
-  #websites h4 {
+  #websites h4,
+  #client-work h4 {
     font-size: 2rem;
     margin-bottom: 20px;
   }
 }
-#websites::before {
+#websites::before,
+#client-work::before {
   display: block;
   content: " ";
   margin-top: -45px;
@@ -1506,5 +1508,3 @@ a.social:hover {
 .websites__card-link--one:hover a:visited {
   color: #000 !important;
 }
-
-/*# sourceMappingURL=style.css.map */
